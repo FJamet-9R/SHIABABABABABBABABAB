@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    background-color: azure;
+    margin: 50px;
+    animation: fadeInAnimation ease 3s;
+	            animation-iteration-count: 1;
+	            animation-fill-mode: forwards;
+	    } 
+	    @keyframes fadeInAnimation{
+	            0% {
+	                opacity: 0;
+	            }
+
+	            100% {
+	                opacity: 1;
+                }
+            }
+
+
+#border{
+    margin:auto;
+    border: black thin solid;
+    width: 500px;
+    height: 370px;
+    padding: 15px;
+}
+
+#container_1{
+    border: black thin solid;
+    width: 470px;
+    height: 360x;
+    padding: 5px;
+}
+
+#output{
+    margin-top: 10px;
+    border: black thin solid;
+    width: 455px;
+    height: 400x;
+}
+
+#the{
+    font-size: 10px;
+    width: 400px;
+   
+}

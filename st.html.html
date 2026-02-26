@@ -10,18 +10,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Lobster&display=swap" rel="stylesheet">
     <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
     <py-script src="main.py"></py-script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Intramurals Players</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Account Creation Page</title>
 </head>
 <body>
-    <div id="navbar">
-        <p>Player List | Team Checker | Registration</p>
+    <div id="border">
+        <div id="container_1">
+            <h2>Create Account</h2>
+            <br>
+            <input type="text" id="username" class="form-control" placeholder="Enter your Username here">
+            <p id="the">Please note that your username should contain atleast 7 characters</p>
+            <br>
+            <input type="text" id="password" class="form-control" placeholder="Enter your Password here">
+            <p id="the">Please make use of atleast one numeric and one alphabetic character whilst also ensuring that your password has a minimum of 10 characters.</p>
+            <button type="button" py-click="signup">Sign In</button>
+            <br>
+
+                <div id="output">
+                    <p id="result"></p>
+                </div>
+        </div>
+        
+
     </div>
-    <div id="containuhr">
-        <p>Ready to know who is playing for us?</p>   
-       <input type="button" py-click="showcase" value="Touch Me">
-       <div id="show"></div>
-    </div>
+
+    
 </body>
 </html>
