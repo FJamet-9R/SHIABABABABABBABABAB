@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    background-color: azure;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
     margin: 50px;
     animation: fadeInAnimation ease 3s;
 	            animation-iteration-count: 1;
@@ -63,4 +63,5 @@ body{
     width: 400px;
    
 }
+
 
