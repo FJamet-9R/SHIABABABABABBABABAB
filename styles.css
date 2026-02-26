@@ -44,6 +44,7 @@ body{
 }
 
 #show{
+	background-color: white;
     margin-top: 10px;
     border: black thin solid;
     width: 455px;
