@@ -43,15 +43,6 @@ body{
 
 
 
-#border{
-    margin:auto;
-    border: black thin solid;
-    width: 490px;
-    height: 500px;
-    padding: 15px;
-	background-color: white;
-}
-
 #container_1{
     border: black thin solid;
     width: 470px;
@@ -72,6 +63,7 @@ body{
     width: 400px;
    
 }
+
 
 
 
